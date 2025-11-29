@@ -33,7 +33,10 @@ Thumbs.db
 .cache/
 .eslintcache
 parcel-cache/
-__pycache__
+__pycache__/
+*.py[cod]
+*.sqlite3
+venv/
 
 # Test coverage
 coverage/
