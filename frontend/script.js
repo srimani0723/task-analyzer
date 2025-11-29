@@ -27,22 +27,6 @@ const testData = [
     dependencies: [],
   },
   {
-    id: 7,
-    title: "🧪 Write unit tests (overdue)",
-    due_date: "2025-11-25",
-    importance: 7,
-    estimated_hours: 3,
-    dependencies: [],
-  },
-  {
-    id: 1,
-    title: "🔥 PRODUCTION CRASH - Users can't login",
-    due_date: "2025-11-28",
-    importance: 10,
-    estimated_hours: 2,
-    dependencies: [],
-  },
-  {
     id: 2,
     title: "📱 Emergency mobile fix (iOS crash)",
     due_date: "2025-11-29",
@@ -113,6 +97,22 @@ const testData = [
     importance: 9,
     estimated_hours: 2,
     dependencies: [4, 5, 8],
+  },
+  {
+    id: 11,
+    title: "🔥 PRODUCTION CRASH - Users can't login",
+    due_date: "2025-11-28",
+    importance: 10,
+    estimated_hours: 2,
+    dependencies: [],
+  },
+  {
+    id: 12,
+    title: "🧪 Write unit tests (overdue)",
+    due_date: "2025-11-25",
+    importance: 7,
+    estimated_hours: 3,
+    dependencies: [],
   },
 ];
 
