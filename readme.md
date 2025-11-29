@@ -23,6 +23,16 @@ A small Django-based service that scores and ranks tasks by how urgently and rea
 
 ---
 
+## Deployed Links
+
+> Backend : `https://task-analyzer-tx4q.onrender.com/`
+
+> Frontend: `https://task-analyzer-jet.vercel.app/`
+
+- When you run on the localmachine replace API_BASE in frontend/script.js with `http://127.0.0.1:8000`
+
+---
+
 ## 📦 Project Setup (after cloning)
 
 ```bash

@@ -1,4 +1,4 @@
-const API_BASE = "http://127.0.0.1:8000/api/tasks/"; // backend.urls + tasks.urls
+const API_BASE = "https://task-analyzer-tx4q.onrender.com/api/tasks/"; // backend.urls + tasks.urls
 
 const form = document.getElementById("form");
 const inputEl = document.getElementById("taskInput");
