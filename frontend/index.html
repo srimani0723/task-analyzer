@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Task Priority Analyze & Suggest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Task Priority Analyze & Suggest</h1>
+    <main class="container">
+
+
+        <form id="form" class="panel">
+            <h2>Input tasks (JSON)</h2>
+            <textarea id="taskInput" spellcheck="false"></textarea>
+            <div class="buttons">
+                <button id="analyzeBtn">Analyze tasks</button>
+                <button id="suggestBtn">Suggest tasks</button>
+                <button id="clearBtn">Clear</button>
+            </div>
+            <p class="hint">
+                Paste an array of task objects here and click “Analyze tasks”.
+            </p>
+        </form>
+
+        <section class="panel">
+            <h2>Results</h2>
+
+            <div id="results" class="results">Empty</div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
